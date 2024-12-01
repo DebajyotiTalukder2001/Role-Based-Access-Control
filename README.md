@@ -149,7 +149,9 @@ Admin can access User Details:
 <h3>Moderator Role:</h3>
 
 
-![Screenshot (18)](https://github.com/user-attachments/assets/478438fa-4504-4485-b744-9ff093c699cb)
+
+![391326767-478438fa-4504-4485-b744-9ff093c699cb](https://github.com/user-attachments/assets/509845b2-f3ac-4c81-bd17-7196f2b04a5c)
+
 
 
 Access Denied without authentication:
