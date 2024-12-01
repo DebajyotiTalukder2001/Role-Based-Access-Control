@@ -1,6 +1,6 @@
 # Role-Based Access Control (RBAC) 
 
-This project is a simple RESTful API for user registration, authentication, and user management (Role-Based Access Control (RBAC)) built using Node.js, Express.js,Typescript, and MongoDB. It provides endpoints for user `registration,` `login`, `Role-Based Access Control (RBAC)`, `fetching user details`, `logging out`, and `logging out from all devices`. 
+This project is a simple RESTful API for user registration, login, authentication, and user management (Role-Based Access Control (RBAC)) built using Node.js, Express.js,Typescript, and MongoDB. It provides endpoints for user `registration,` `login`, `Role-Based Access Control (RBAC)`, `fetching user details`, `logging out`, and `logging out from all devices`. 
 
 ## Features
 
@@ -96,6 +96,7 @@ tsconfig:
 ## File Structure
 
 
+![Screenshot (9)](https://github.com/user-attachments/assets/9a8250e4-7d88-4107-a965-ff78fc6f052e)
 
 
 src/: This is our root folder where our project resides.
@@ -114,6 +115,71 @@ src/: This is our root folder where our project resides.
 
 
 ## ScreenShots
+
+
+![Screenshot (10)](https://github.com/user-attachments/assets/cd7ee043-eb5d-4d9b-bafb-cdc7ad845f19)
+
+
+<h3>Admin Role:</h3>
+
+![Screenshot (12)](https://github.com/user-attachments/assets/437c2343-ccd8-467f-95bb-88801bf7cb8a)
+
+
+
+![Screenshot (13)](https://github.com/user-attachments/assets/c0252c7f-17e8-4085-9dea-aa1b785b92bd)
+
+
+![Screenshot (14)](https://github.com/user-attachments/assets/0637effe-a052-4cbd-b7ba-26ce8bdac9ed)
+
+Admin can access Moderator Route:
+
+![Screenshot (15)](https://github.com/user-attachments/assets/bfbefd85-180b-4067-a81d-25f3e822eeca)
+
+
+Admin can access User Details:
+
+![Screenshot (17)](https://github.com/user-attachments/assets/6ed726a3-4eac-46ca-a770-5879e0b43d82)
+
+
+
+
+![Screenshot (25)](https://github.com/user-attachments/assets/2a2f6acf-6757-4333-8f76-297ff7114bd8)
+
+
+<h3>Moderator Role:</h3>
+
+
+![Screenshot (18)](https://github.com/user-attachments/assets/478438fa-4504-4485-b744-9ff093c699cb)
+
+
+Access Denied without authentication:
+
+![Screenshot (19)](https://github.com/user-attachments/assets/1e197580-72d2-49ec-bc02-03dc9627350c)
+
+
+Access granted with JWT Token (Authentication):
+
+![Screenshot (20)](https://github.com/user-attachments/assets/f5c85b06-9d2f-462d-ba44-4c823b80a553)
+
+Admin Access Denied:
+
+![Screenshot (21)](https://github.com/user-attachments/assets/08e1df93-5473-49de-b123-36b1d291ecf2)
+
+
+
+<h3>User Role:</h3>
+
+
+
+![Screenshot (22)](https://github.com/user-attachments/assets/6bee53d2-aaa8-4a90-9be9-a4c06df760e2)
+
+Moderator or Admin Access Denied:
+![Screenshot (23)](https://github.com/user-attachments/assets/74a1494e-a0f3-48e0-9a76-0c34ff99f51a)
+
+
+
+Logout:
+![Screenshot (24)](https://github.com/user-attachments/assets/bd4aa6f9-ad00-4a36-882c-a2db200896f4)
 
 
 
