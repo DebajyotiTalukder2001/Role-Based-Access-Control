@@ -40,7 +40,7 @@ This project is a simple RESTful API for user registration, login, authenticatio
 
 ``` npm install -g yarn  ```
 
-``` yarn```
+``` yarn install```
 
 ``` yarn start```
 
@@ -66,7 +66,11 @@ Used Thunder Client VSCode Extension (Similar to Postman):
 - jsonwebtoken: JWT token generation and verification
 - TypeScript: Superset of JavaScript that compiles to clean JavaScript output
 
-## Getting Started ##
+## Getting Started: How to create the project ##
+
+```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser```
+
+``` npm install -g yarn  ```
 
 Initialization:
 
@@ -84,7 +88,7 @@ tsconfig:
 
 `npx tsc --init`
 
-
+` yarn start`
 
 ## File Structure
 
