@@ -88,6 +88,8 @@ tsconfig:
 
 `npx tsc --init`
 
+run:
+
 ` yarn start`
 
 ## File Structure
