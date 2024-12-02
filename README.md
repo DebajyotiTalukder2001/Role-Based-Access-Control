@@ -14,7 +14,7 @@ This project is a simple RESTful API for user registration, login, authenticatio
 
 ## Installation
 
-- Required Installations: Node.js, VS Code IDE, MongoDB (Installation Required) or MongoDB Atlas Cloud (No installation required)
+- Required Installations: Node.js, VS Code IDE, MongoDB (Installation Required) or MongoDB Atlas Cloud (No Installation Required)
 - Used VS Code Extensions: MongoDB, Thunder Client
 
 1. Clone the repository
@@ -44,9 +44,6 @@ This project is a simple RESTful API for user registration, login, authenticatio
 
 ``` yarn start```
 
-``` CTRL + C ```
-
-
 ## Usage
 
 Used Thunder Client VSCode Extension (Similar to Postman):
@@ -61,10 +58,6 @@ Used Thunder Client VSCode Extension (Similar to Postman):
 
 
 ## Dependencies
-
-[@npm](https://docs.npmjs.com)
-[@yarn](https://classic.yarnpkg.com/en/docs/getting-started)
-
 
 - express: Web framework for Node.js
 - mongodb: NoSQL database
